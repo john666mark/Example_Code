@@ -703,7 +703,7 @@ Remove_BillboardGui_event.OnClientEvent:Connect(function(Plot_Number: number, St
 		return
 	end
 
-	Player_OreStation:Remove_BillboardGui() -- need a method to reset ore data to nil // Done
+	Player_OreStation:Remove_BillboardGui() 
 end)
 
 Collect_Fragment_event.OnClientEvent:Connect(function(Plot_Number: number, Station_number: number)
