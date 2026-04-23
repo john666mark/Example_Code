@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local OpenGui_Animations = require(ReplicatedStorage.Shared.GUI_TweenModule_Folder.Open_Gui_Animations)
+local OpenGui_Animations = require(ReplicatedStorage.Shared.GUI_TweenModule_Folder.Open_Gui_Animations) -- my own UI FrameWork For this Projekt ...
 local LocalPlayer = Players.LocalPlayer
 
 ----------> [GUI-Refs] <----------
